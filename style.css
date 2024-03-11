@@ -1,0 +1,132 @@
+/* Estilo básico para a barra de navegação */
+.navbar {
+  background-color: azure;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: right;
+  z-index: 1;
+}
+
+/* Estilo para os links na barra de navegação */
+.navbar a {
+  display: inline-block;
+  color: #00303f;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Estilo para os links quando o mouse passa por cima */
+.navbar a:hover {
+  color: #3498db;
+}
+
+/* Estilo para o conteúdo após a barra de navegação */
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 150px;
+  background-image: url(imagem\ \(1\).png);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* Estilo para a imagem */
+img {
+  border-radius: 1500px;
+  width: 250px;
+  height: 250px;
+}
+
+/* Estilo para o texto */
+.text {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  color: azure;
+}
+
+/* Estilo para o botão */
+.botao {
+  background-color: #00303f;
+  color: white;
+  border: none;
+  border-radius: 3%;
+  padding: 15px 15px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.botao:hover {
+  color: #3498db;
+}
+
+/* Estilo para o sobre */
+.sobre {
+  color: azure;
+  background-color: black;
+  position: absolute;
+  top: 725px;
+  left: 0;
+  right: 0;
+  text-align: justify;
+  z-index: 1;
+  padding: 70px;
+  height: auto;
+}
+
+/* Estilo para as habilidades */
+.habilidades {
+  color: azure;
+  background-color: #00303f;
+  position: absolute;
+  top: 990px;
+  left: 0;
+  right: 0;
+  text-align: justify;
+  z-index: 1;
+  padding: 70px;
+  height: auto;
+}
+
+/* Estilo para os projetos */
+.projetos {
+  color: azure;
+  background-color: #19474C;
+  position: absolute;
+  top: 1200px;
+  left: 0;
+  right: 0;
+  text-align: justify;
+  z-index: 1;
+  padding: 70px;
+  height: auto;
+}
+
+/* Estilo para o final */
+.final {
+  color: #00303f;
+  background-color: azure;
+  position: absolute;
+  top: 1450px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+  padding: 5px;
+  height: auto;
+}
+
+/* Estilo para o corpo da página */
+body {
+  margin: 0;
+  padding: 0;
+}
